@@ -1,13 +1,23 @@
 body{
-    background: #cccccc;
+    background: #63a06b3b;
     text-align: center
 }
 
 header{
-    font-family: Arial, Helvetica, sans-serif;
-    background: skyblue;
+    padding: 30px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background: #55a84127;
 }
 
 input{
-    border-block-start-width: 1cm
+    border-block-start-width: 3cm;
+    border-radius: 60% 50% 60% 50%;
+    text-align: center;
+}
+
+.news_item{
+    padding: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-bottom: 2px solid grey;
+    box-sizing: border-box;
 }

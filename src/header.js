@@ -7,13 +7,15 @@ class Header extends Component{
         super(props);
 
         this.state = {
-            title:"Hello React from Ayush",
+            title:"Get Latest News Updates",
             keywords:''
         }
+        console.log(props)
     }
    
     inputChange(event){
         this.setState({keywords:event.target.value})
+        this.props.newsSearch(event.target.value)
     }
    
    
@@ -22,7 +24,7 @@ class Header extends Component{
         return(
             <header>
                 <div
-                onClick={()=>console.log('clicked')} ><h1> Logo</h1></div>
+                onClick={()=>console.log('clicked')} ><h1>Amar Ujala</h1></div>
                 <input
                 onChange={this.inputChange.bind(this)}/>
                 <div>{this.state.title}</div>
