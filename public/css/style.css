@@ -1,0 +1,13 @@
+body{
+    background: #cccccc;
+    text-align: center
+}
+
+header{
+    font-family: Arial, Helvetica, sans-serif;
+    background: skyblue;
+}
+
+input{
+    border-block-start-width: 1cm
+}
